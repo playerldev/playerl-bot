@@ -2,7 +2,7 @@
   "name": "playerlbot",
   "version": "2.1.0",
   "description": "",
-  "main": "playerlbot.js",
+  "main": "bot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
