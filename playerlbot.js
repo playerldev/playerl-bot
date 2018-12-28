@@ -64,16 +64,12 @@ message.reply("¡Me alegra oír eso!")
 }
 if (message.content.startsWith(prefix +"Recomiendame un juego")){
 message.reply("Obviemente, siempre diré el maravilloso y fantástico Rocket League, o Slime Rancher, o Evoland. Todos disponibles en G2A.")
-};
 if (message.content.startsWith(prefix +"recomiendame un juego")){
 message.reply("Obviemente, siempre diré el maravilloso y fantástico Rocket League, o Slime Rancher, o Evoland. Todos disponibles en G2A.")
-};
 if (message.content.startsWith(prefix +"Recomiéndame un juego")){
 message.reply("Obviemente, siempre diré el maravilloso y fantástico Rocket League, o Slime Rancher, o Evoland. Todos disponibles en G2A.")
-};
 if (message.content.startsWith(prefix +"recomiéndame un juego")){
 message.reply("Obviemente, siempre diré el maravilloso y fantástico Rocket League, o Slime Rancher, o Evoland. Todos disponibles en G2A.")
-};
 }
 }
 }
