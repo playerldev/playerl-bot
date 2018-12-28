@@ -1,19 +1,14 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const config = require("./info.json");
+
 let prefix = config.prefix;
+
 client.on("ready", () => {
-   console.log("Estoy listo!");
+   console.log("Done!");
 });
 
 client.on("message", (message) => {
-if (message.content.startsWith(prefix +"checkStatus")){
-    message.channel.send({embed: {
-      color: 3447003,
-      description: "Si puedes ver esto, significa que el BOT funciona, Si quieres revisar el estado puedes entrar al foro de Heroku (Host) y Discord."
-    }});
-    console.log("Un usuario revisó el estado del bot")
-}
 if (message.content.startsWith(prefix +"youtube")){
     message.channel.send({embed: {
       color: 3447003,
@@ -34,9 +29,6 @@ if (message.content.startsWith(prefix +"help")){
       description: "Prefix: -p \\// Comandos: p-help (Ayuda) / p-checkStatus (Revisa el estado del bot) / p-youtube (Canal de YouTube de Playerl) / p-Twitter (Twitter de Playerl) / p-(cualquier frase) (Platicar con el Bot, tal cual y como Playerl respondería)"
     }});
     console.log("Un usuario necesita ayuda con el bot")
-}
-}
-}
 }
 else if(message.content.startsWith(prefix+"")) {
  message.channel.send("No te he entenido, disculpa");
